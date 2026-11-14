@@ -10,6 +10,7 @@
 | :-: | :--- | :--- |
 | 01 | [安装开源工具 Magpie](#01-安装开源工具-magpie) | `帮我安装https://github.com/yetone/magpie ，安装目录g:\tools` |
 | 02 | [搭建 GPT 号池](#02-搭建-gpt-号池) | `https://github.com/yang0/magpie-gptfree 帮我把号池建起来。我的magpie目录： G:\tools` |
+| 03 | [安装 AI 自动化浏览器 ego lite](#03-安装-ai-自动化浏览器-ego-lite) | `https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装包，并安装到g:\tools 目录下` |
 
 ---
 
@@ -46,6 +47,24 @@ https://github.com/yang0/magpie-gptfree 帮我把号池建起来。我的magpie�
 **简短说明：**
 
 [magpie-gptfree](https://github.com/yang0/magpie-gptfree) 是一款专为 Magpie 打造的多账号号池插件，支持把批量 GPT 普号直接粘贴或拖入 TXT 一键授权入池，自动同步到供应商列表实现多账号轮询与故障自动切换，还能实时查看每个账号的剩余生图额度，畅享聊天及 `gpt-image-2` / `gpt-image-2.6` 全系列文生图与改图能力，凭证全程加密保存在本机。小白不用自己研究插件怎么装、运行环境怎么配，只需把插件仓库地址和本地 Magpie 目录一句话发给 AI，它就会自动读懂项目文档并把号池插件安装配置到位，打开面板导入账号就能直接用。
+
+---
+
+## 03. 安装 AI 自动化浏览器 ego lite
+
+**发给 AI 的一句话：**
+
+```text
+https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装包，并安装到g:\tools 目录下
+```
+
+**截图：**
+
+![ego lite 预览图](assets/003-ego-lite.png)
+
+**简短说明：**
+
+[ego lite](https://github.com/citrolabs/ego-lite) 是一款专为「人与 AI Agent 并行工作」设计的免费浏览器。它为每个 Agent（如 Claude Code、Codex、Cursor 等）提供独立隔离的 Space 工作区，可一键继承本地浏览器的登录状态与 Cookie，让多个 Agent 在后台高速执行网页自动化任务的同时，完全不抢占你前台正常浏览的标签页和鼠标控制权，安装后还会自动把 `ego-browser` 技能同步给本机各个 Agent。平时在 GitHub 装桌面软件往往要先分清 macOS（Apple Silicon / Intel）还是 Windows 安装包，再手动下载和指定目录安装；现在只要把仓库地址和目标路径一句话发给 AI，它就会自动识别当前系统、下载对应安装包并安装到 `g:\tools` 目录下，全程省心到底。
 
 ---
 
